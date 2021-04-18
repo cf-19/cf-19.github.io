@@ -1,1 +1,0 @@
-scp -r src root@58.87.120.246:/usr/share/nginx/html
