@@ -6,7 +6,9 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    /* I love it! */
+    font-family: Yuanti SC;
+    font-weight: 300;
 }
 
 .title {
@@ -24,5 +26,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    max-width: 1008px;
+    max-width: 808px;
+    padding-bottom: 2%;
 }
