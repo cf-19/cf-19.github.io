@@ -26,6 +26,25 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    max-width: 808px;
+    max-width: 708px;
     padding-bottom: 2%;
+}
+
+img {
+    display: block;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #555;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
 }
