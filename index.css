@@ -11,40 +11,10 @@ body {
     font-weight: 300;
 }
 
-.title {
-    width: 90%;
-    max-width: 506px;
-    height: 39px;
-    display: flex;
-    justify-content: space-between;
-}
-.title p {
-    cursor: pointer;
-}
-
 .content {
     display: flex;
     flex-direction: column;
     padding-top: 2%;
-}
-
-img {
-    display: block;
-    width: 80%;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #555;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-span {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
 }
 
 .b_item_p {
@@ -54,6 +24,8 @@ span {
     align-items: center;
     flex-wrap: wrap;
     width: 500px;
+
+    margin-bottom: 5px;
 }
 
 .b_item {
