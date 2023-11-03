@@ -1,0 +1,41 @@
+{
+  "name": "three-devtools",
+  "version": "0.1.0-alpha.4",
+  "description": "Next generation Three.js DevTools, it's modern and future-oriented.",
+  "keywords": [
+    "threejs",
+    "devtools"
+  ],
+  "homepage": "https://github.com/vimcaw/three-devtools#readme",
+  "bugs": {
+    "url": "https://github.com/vimcaw/three-devtools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vimcaw/three-devtools"
+  },
+  "license": "MIT",
+  "author": "vimcaw",
+  "contributors": [
+    "vimcaw",
+    "cf-19"
+  ],
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./index.es.js",
+    "require": "./index.umd.js",
+    "default": "./index.umd.js"
+  },
+  "main": "./index.umd.js",
+  "module": "./index.es.js",
+  "types": "./index.d.ts",
+  "files": [
+    "**"
+  ],
+  "dependencies": {
+    "csstype": "^3.1.2"
+  },
+  "peerDependencies": {
+    "three": "*"
+  }
+}
